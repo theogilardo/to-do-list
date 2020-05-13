@@ -1,0 +1,124 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*before {
+  box-sizing: inherit;
+}
+
+html {
+  /*font-size: 62.5%;*/
+}
+
+body {
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 7rem;
+    background-image: linear-gradient(to left top, #8360c3, #2ebf91);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+p {
+    font-size: 1.4rem;
+    color: #333;
+}
+
+input {
+  padding: .5rem 4rem;
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.wrapper {
+    min-height: 100vh;
+    background-image: linear-gradient(to right bottom, #FCCF31, #F55555);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 1rem;
+}
+
+.wrapper > * {
+    margin: 1rem;
+}
+
+.btn {
+  padding: .5rem 1rem;
+  border: none;
+  font-family: inherit;
+  background-image: linear-gradient(to left top, #8360c3, #2ebf91);
+  color: #eee;
+  transition: all .5s;
+}
+
+.btn:hover {
+    transform: translateX(-.3rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn-delete {
+  padding: .5rem 1rem;
+  border: none;
+  font-family: inherit;
+  color: #333;
+}
+
+.item {
+    list-style: none;
+    font-size: 1.5rem;
+    background-color: black;
+    background-image: linear-gradient(to left top, #8360c3, #2ebf91);
+    color: white;
+    width: 20rem;
+    height: 2.5rem;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.flex {
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+.minContent {
+  width: max-content;
+  padding: 1rem;
+}
+
+.input-field {
+    display: -webkit-flex;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
